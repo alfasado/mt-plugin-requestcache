@@ -1,10 +1,6 @@
 package RequestCache::Tags;
 use strict;
 
-# <MTRequestCacheBlock key="RecentEntries" blog_id="$blog_id">
-#     Some template tags here.
-# </MTRequestCacheBlock>
-
 sub _hdlr_request_cache {
     my ( $ctx, $args, $cond ) = @_;
     require MT::Request;
