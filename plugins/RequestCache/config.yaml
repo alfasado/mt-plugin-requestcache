@@ -1,0 +1,11 @@
+name: RequestCache
+id:   RequestCache
+key:  requestcache
+version: 1.0
+author_link: https://github.com/alfasado
+author_name: Alfasado Inc.
+description: Template code to speed rebuilds in single request.
+
+tags:
+    block:
+        RequestCache: $requestcache::RequestCache::Tags::_hdlr_request_cache
